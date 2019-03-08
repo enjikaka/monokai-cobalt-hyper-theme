@@ -3,15 +3,15 @@ const black = '#000000';
 const red = '#ff2600';
 const green = '#b7fa34ff';
 const yellow = '#ffe500';
-const blue = '#00d6ffff';
-const magenta = '#ff308fff';
+const blue = '#00d6ff';
+const magenta = '#ff308f';
 const cyan = '#00c5c7';
-const white = '#f8f8f2ff';
+const white = '#f8f8f2';
 const lightBlack = '#557da0';
-const lightRed = '#ff0000';
+const lightRed = '#ff2600';
 const lightGreen = '#33ff00';
 const lightYellow = '#ffff00';
-const lightBlue = '#1478DB';
+const lightBlue = '#00d6ff';
 const lightMagenta = '#cc00ff';
 const lightCyan = '#00ffff';
 const lightWhite = '#ffffff';
@@ -30,8 +30,8 @@ exports.decorateConfig = config =>
     ${config.css || ''}
     .tab_active {
       background: #485e6d;
-      border-bottom: 1px solid ${yellow} !important;
-      border-color: ${yellow};
+      border-bottom: 1px solid ${magenta} !important;
+      border-color: ${magenta};
     }
 
     .tabs_nav {
