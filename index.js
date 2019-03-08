@@ -1,31 +1,32 @@
 // standard ANSI Colours
 const black = '#000000';
-const red = '#ff2600';
-const green = '#b7fa34ff';
-const yellow = '#ffe500';
-const blue = '#00d6ff';
-const magenta = '#ff308f';
-const cyan = '#00c5c7';
-const white = '#f8f8f2';
-const lightBlack = '#557da0';
-const lightRed = '#ff2600';
-const lightGreen = '#33ff00';
-const lightYellow = '#ffff00';
-const lightBlue = '#00d6ff';
-const lightMagenta = '#cc00ff';
-const lightCyan = '#00ffff';
-const lightWhite = '#ffffff';
+const red = '#f92e8a'; // Keyword
+const green = '#b7fa34'; // Class name
+const yellow = '#ffe500'; // String
+const blue = '#00d6ff'; // Function name
+const magenta = '#d947ff'; // Number, constant
+const cyan = '#fd971f'; // Function argument (Actually orange)
+const white = '#f8f8f0';
+const lightBlack = black;
+const lightRed = '#ff308f';
+const lightGreen = green;
+const lightYellow = yellow;
+const lightBlue = blue;
+const lightMagenta = magenta;
+const lightCyan = cyan;
+const lightWhite = '#f8f8f2';
 
-// custom colours
-const monokaiCobaltBlue = '#2d3b45';
+// Custom colours
+const monokaiCobalt = '#2d3b45';
+const monokaiCobaltLineHighlight = 'rgb(72, 94, 107, 0.5)';
 
 exports.decorateConfig = config =>
   Object.assign({}, config, {
     cursorColor: yellow,
     foregroundColor: white,
-    backgroundColor: monokaiCobaltBlue,
+    backgroundColor: monokaiCobalt,
     borderColor: 'rgba(255,255,255,0.1)',
-    selectionColor: '#485e6b',
+    selectionColor: monokaiCobaltLineHighlight,
     css: `
     ${config.css || ''}
     .tab_active {
