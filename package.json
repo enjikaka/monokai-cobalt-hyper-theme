@@ -1,6 +1,6 @@
 {
   "name": "monokai-cobalt-hyper-theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Monokai-Cobalt theme for Hyper terminal",
   "main": "index.js",
   "scripts": {
