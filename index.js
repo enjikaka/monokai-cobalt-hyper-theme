@@ -11,19 +11,19 @@ const lightBlack = black;
 const lightRed = '#ff308f';
 const lightGreen = green;
 const lightYellow = yellow;
-const lightBlue = '#fd971f'; // (Actually orange)
+const lightBlue = green;
 const lightMagenta = magenta;
 const lightCyan = cyan;
 const lightWhite = '#f8f8f2';
 
-// Custom colours
+// Custom colours - Orange: #fd971f
 const monokaiCobalt = '#2d3b45';
 const monokaiCobaltLineHighlight = 'rgb(72, 94, 107, 0.5)';
 
 exports.decorateConfig = config =>
   Object.assign({}, config, {
     cursorColor: yellow,
-    foregroundColor: 'rgba(255,255,255,0.8)',
+    foregroundColor: 'rgba(255,255,255,0.7)',
     backgroundColor: monokaiCobalt,
     borderColor: 'rgba(255,255,255,0.1)',
     selectionColor: monokaiCobaltLineHighlight,
